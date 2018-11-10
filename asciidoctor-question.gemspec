@@ -24,10 +24,10 @@ Gem::Specification.new do |s|
   s.test_files    = s.files.grep(%r{^(test|spec|features)/})
   s.require_paths = ["lib"]
 
-  s.add_development_dependency "bundler", "~> 1.13"
-  s.add_development_dependency "rake", "~> 12"
-  s.add_development_dependency "rspec", "~> 3.5"
+  s.add_development_dependency "bundler", "> 1.13"
+  s.add_development_dependency "rake", "> 12"
+  s.add_development_dependency "rspec", "> 3.5"
 
-  s.add_runtime_dependency "asciidoctor", "~> 1.5"
-  s.add_runtime_dependency "nokogiri", "~> 1.6"
+  s.add_runtime_dependency "asciidoctor", "> 1.5"
+  s.add_runtime_dependency "nokogiri", "> 1.6"
 end
